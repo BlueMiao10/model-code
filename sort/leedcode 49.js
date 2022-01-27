@@ -16,3 +16,6 @@ let groupAnagrams = function (strS) {
 }
 
 console.log(groupAnagrams(strs));
+
+
+//桶排序应该也能做，把相同的放在一个桶里，在考虑一下

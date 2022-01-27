@@ -1,6 +1,5 @@
 function heapSort(array) {
   creatHeap(array);
-  console.log(array);
   // 交换第一个和最后一个元素，然后重新调整大顶堆
   for (let i = array.length - 1; i > 0; i--) {
     [array[i], array[0]] = [array[0], array[i]];

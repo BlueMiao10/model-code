@@ -5,7 +5,7 @@
 */
 
 function print(pRoot) {
-  //
+  console.log(pRoot)
   let result = []
   let stack = []
   if (!pRoot) return result
@@ -14,6 +14,7 @@ function print(pRoot) {
   while (stack.length > 0) {
     let temp = []
     let len = stack.length
+    //实现每一层的放入同一个数组中，这部分最为重要
     while (len) {
       let current = stack.shift()
       temp.push(current.value)

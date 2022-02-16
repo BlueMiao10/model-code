@@ -5,7 +5,6 @@
 */
 
 function print(pRoot) {
-  console.log(pRoot)
   let result = []
   let stack = []
   if (!pRoot) return result
